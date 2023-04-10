@@ -1,29 +1,42 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 html{
     scroll-behavior: smooth;
 }
 
-h1{
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(168, 118, 215);
+
+}
+
+header nav a{
+    color: crimson;
+    margin: 0 5px;
+}
+
+header nav a:hover{
+    color: rgb(36, 4, 113);
+    margin: 0 5px;
+}
+
+.lang{
+    color: crimson;
+    background-color: transparent;
+    border: none;
+}
+
+.lang:hover{
+    color: rgb(36, 4, 113);
+}
+
+header{
     text-align: center;
-    color: blue;
-}
-
-h2{
-    text-align: center;
-    color: gold;
-}
-
-#scoll_to_top{
-    position: fixed;
-    width: 25px;
-    bottom: 50px;
-    right: 30px;
-}
-
-#scoll_to_top img{
-    width: 25px;
 }
